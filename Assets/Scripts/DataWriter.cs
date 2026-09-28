@@ -3,12 +3,13 @@ using System.IO;
 public class DataWriter : MonoBehaviour
 {
     private string folder = "DataLogs";
-    [SerializeField] private string playtestName = "Report";
-    private string reportName;
+    private string subFolder = "Level ";
+    [SerializeField] private string levelNumber = "x";
+    [SerializeField] private string participantNumber = "x";
+    private string fileName;
     private string folderpath;
-    private int nReports = 0;
     private string dataFilepath;
-    private string[] dataColumnHeaders = { "Test Column" };
+    private string[] dataColumnHeaders = { "Frame Name", "Start/Stop Looking", "Time" };
     private string dataLineFormat;
     private StreamWriter dataAnalyticsLog = null;
     void Start()
@@ -18,20 +19,16 @@ public class DataWriter : MonoBehaviour
 
     private void OpenWriters()
     {
-        if (nReports == 0)
-        {
-            playtestName += string.Format("{0:dd-MM-yyyy-HH-mm-ss}", System.DateTime.Now);
-        }
-        reportName = playtestName;
-        reportName += " Report " + (nReports + 1);
+        subFolder += levelNumber;
+        fileName = "Participant " + participantNumber + " " + string.Format("{0:dd-MM-yyyy-HH-mm-ss}", System.DateTime.Now) + ".csv";
 
-        folderpath = Path.Combine(Application.persistentDataPath, folder, reportName);
+        folderpath = Path.Combine(Application.persistentDataPath, folder, subFolder);
         if (!Directory.Exists(folderpath))
         {
             Directory.CreateDirectory(folderpath);
         }
 
-        dataFilepath = Path.Combine(folderpath, "Data.csv");
+        dataFilepath = Path.Combine(folderpath, fileName);
         dataAnalyticsLog = new StreamWriter(dataFilepath);
 
         dataLineFormat = SetupLog(dataAnalyticsLog, dataColumnHeaders);
@@ -40,8 +37,6 @@ public class DataWriter : MonoBehaviour
     public void EndReport()
     {
         dataAnalyticsLog?.Close();
-        nReports++;
-        OpenWriters();
     }
 
     void OnDestroy()

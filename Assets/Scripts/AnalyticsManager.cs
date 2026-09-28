@@ -20,7 +20,7 @@ public class AnalyticsManager : MonoBehaviour
         }
     }
 
-   void Awake()
+    void Awake()
     {
         if (instance != null)
         {
@@ -38,57 +38,40 @@ public class AnalyticsManager : MonoBehaviour
         datalog = gameObject.GetComponent<DataWriter>();
     }
 
-    void Update()
+    public void StartRecording()
     {
-        if (started)
-        {
-            UpdateWriteData();
-        }
+        started = true;
     }
 
-    public void StartRecord()
+    public void StopRecording()
     {
-        if (!started)
-        {
-            StartWriteData();
-            started = true;
-        }
-    }
-    public void EndRecord()
-    {
-        if (datalog != null && started)
-        {
-            StopWriteData();
-        }
         datalog.EndReport();
         started = false;
     }
+
+
     //Writing Methods
-    private void StartWriteData()
+    public void StartLookingFrame(string frameName)
     {
-        if (datalog != null)
+        if (datalog != null && started)
         {
             datalog.WriteDataLine(
-                "START!"
-                );
+                frameName,
+                "Start Looking",
+                string.Format("{0:HH:mm:ss.FFFFFFF}", System.DateTime.Now)
+            );
         }
     }
-    private void UpdateWriteData()
+
+    public void StopLookingFrame(string frameName)
     {
-        if (datalog != null)
+        if (datalog != null && started)
         {
             datalog.WriteDataLine(
-                "UPDATE!"
-                );
-        }
-    }
-    private void StopWriteData()
-    {
-        if (datalog != null)
-        {
-            datalog.WriteDataLine(
-                "STOP!"
-                );
+                frameName,
+                "Stop Looking",
+                string.Format("{0:HH:mm:ss.FFFFFFF}", System.DateTime.Now)
+            );
         }
     }
 }
