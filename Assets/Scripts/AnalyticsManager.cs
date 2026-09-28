@@ -54,7 +54,6 @@ public class AnalyticsManager : MonoBehaviour
             started = true;
         }
     }
-
     public void EndRecord()
     {
         if (datalog != null && started)
@@ -64,7 +63,6 @@ public class AnalyticsManager : MonoBehaviour
         datalog.EndReport();
         started = false;
     }
-
     //Writing Methods
     private void StartWriteData()
     {
