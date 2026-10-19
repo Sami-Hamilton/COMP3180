@@ -332,7 +332,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 1793810110}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1087,7 +1087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &59203223
 Transform:
   m_ObjectHideFlags: 0
@@ -1162,8 +1162,8 @@ MonoBehaviour:
   Panel6: {fileID: 324848385}
   Panel7: {fileID: 709739936}
   Panel8: {fileID: 122481404}
-  Furniture: {fileID: 0}
-  BlackPanel: {fileID: 0}
+  Furniture: {fileID: 59203222}
+  BlackPanel: {fileID: 91865553}
   TestVersion: 0
 --- !u!1001 &88341406
 PrefabInstance:
@@ -7644,7 +7644,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 324848385}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8797,7 +8797,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 1180129171}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9524,7 +9524,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 709739936}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10979,7 +10979,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 626863812}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13608,7 +13608,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 1845394852}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -14521,6 +14521,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2054786727965031755, guid: 368952e4436e040048bd87ae9feafa13, type: 3}
+      propertyPath: m_AllowGazeAssistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054786727965031755, guid: 368952e4436e040048bd87ae9feafa13, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -15338,8 +15342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129830a94515d044997baf8cd7ca38bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DataWriter
-  levelNumber: x
-  participantNumber: x
+  levelNumber: 1
+  participantNumber: 1
 --- !u!4 &1571659142
 Transform:
   m_ObjectHideFlags: 0
@@ -16171,7 +16175,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 122481404}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -16352,7 +16356,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1537214843}
+      - m_Target: {fileID: 417189462}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -19370,6 +19374,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8414676600912112137, guid: 171b790c59ed0430a98a833936184263, type: 3}
       propertyPath: m_AllowGazeSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8414676600912112137, guid: 171b790c59ed0430a98a833936184263, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 1734784183}
+    - target: {fileID: 8414676600912112137, guid: 171b790c59ed0430a98a833936184263, type: 3}
+      propertyPath: m_StartingSelectFilters.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8414676600912112137, guid: 171b790c59ed0430a98a833936184263, type: 3}
