@@ -41,12 +41,27 @@ public class AnalyticsManager : MonoBehaviour
     public void StartRecording()
     {
         started = true;
+        if (datalog != null)
+        {
+            datalog.WriteDataLine(
+                "START TRIAL",
+                "",
+                ""
+            );
+        }
     }
 
     public void StopRecording()
     {
-        datalog.EndReport();
         started = false;
+        if (datalog != null)
+        {
+            datalog.WriteDataLine(
+                "END TRIAL",
+                "",
+                ""
+            );
+        }
     }
 
 
