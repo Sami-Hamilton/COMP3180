@@ -3,8 +3,6 @@ using System.IO;
 public class DataWriter : MonoBehaviour
 {
     private string folder = "DataLogs";
-    private string subFolder = "Level ";
-    [SerializeField] private string levelNumber = "x";
     [SerializeField] private string participantNumber = "x";
     private string fileName;
     private string folderpath;
@@ -19,10 +17,9 @@ public class DataWriter : MonoBehaviour
 
     private void OpenWriters()
     {
-        subFolder += levelNumber;
         fileName = "Participant " + participantNumber + " " + string.Format("{0:dd-MM-yyyy-HH-mm-ss}", System.DateTime.Now) + ".csv";
 
-        folderpath = Path.Combine(Application.persistentDataPath, folder, subFolder);
+        folderpath = Path.Combine(Application.persistentDataPath, folder);
         if (!Directory.Exists(folderpath))
         {
             Directory.CreateDirectory(folderpath);

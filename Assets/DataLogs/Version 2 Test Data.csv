@@ -1,0 +1,90 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 1,,27:21.7
+Coral - 1,Start Looking,27:22.3
+Coral - 1,Stop Looking,27:22.3
+Circle - 1,Start Looking,27:22.5
+Circle - 1,Stop Looking,27:22.6
+Lego - 1,Start Looking,27:22.7
+Lego - 1,Stop Looking,27:22.8
+Circle - 1,Start Looking,27:23.5
+Circle - 1,Stop Looking,27:23.5
+Cheese (Target) - 1,Start Looking,27:23.6
+Cheese (Target) - 1,Stop Looking,27:23.7
+Cube - 1,Start Looking,27:23.8
+Cube - 1,Stop Looking,27:24.0
+Cheese (Target) - 1,Start Looking,27:24.2
+Cheese (Target) - 1,Stop Looking,27:24.3
+Cheese (Target) - 1,Start Looking,27:24.9
+END TRIAL,,27:25.5
+START TRIAL 3,,27:28.8
+Ball 3,Start Looking,27:29.2
+Ball 3,Stop Looking,27:29.3
+Gem 3,Start Looking,27:29.4
+Gem 3,Stop Looking,27:29.5
+Apple 3,Start Looking,27:30.2
+Apple 3,Stop Looking,27:30.2
+Apple 3,Start Looking,27:30.4
+Apple 3,Stop Looking,27:30.4
+Watering (Target) 3,Start Looking,27:30.7
+Watering (Target) 3,Stop Looking,27:30.8
+Watering (Target) 3,Start Looking,27:31.7
+END TRIAL,,27:31.9
+START TRIAL 8,,27:35.1
+Flower (Target) 8,Stop Looking,27:35.6
+Flower (Target) 8,Stop Looking,27:35.7
+Flower (Target) 8,Stop Looking,27:36.3
+END TRIAL,,27:36.4
+START TRIAL 5,,27:39.2
+Toothbrush 5,Start Looking,27:39.6
+Toothbrush 5,Stop Looking,27:39.6
+Orange 5,Start Looking,27:39.8
+Orange 5,Stop Looking,27:39.9
+Ball (Target) 5,Start Looking,27:41.1
+END TRIAL,,27:41.3
+START TRIAL 7,,27:43.4
+Bottle (Target) 7,Start Looking,27:44.1
+Bottle (Target) 7,Stop Looking,27:44.5
+Bottle (Target) 7,Start Looking,27:45.1
+END TRIAL,,27:45.8
+START TRIAL 6,,27:48.1
+Ball 6,Start Looking,27:48.6
+Ball 6,Stop Looking,27:48.8
+Plant 6,Start Looking,27:48.9
+Plant 6,Stop Looking,27:48.9
+Pumpkin (Target) 6,Start Looking,27:50.1
+END TRIAL,,27:50.5
+START TRIAL 2,,27:52.5
+Panda (Target) 2,Start Looking,27:53.5
+Panda (Target) 2,Stop Looking,27:53.8
+Panda (Target) 2,Start Looking,27:54.9
+Panda (Target) 2,Stop Looking,27:55.0
+Flowers - 2,Start Looking,27:55.1
+Flowers - 2,Stop Looking,27:55.3
+Watering 2,Start Looking,27:55.4
+Watering 2,Stop Looking,27:55.4
+Gem 2,Start Looking,27:55.5
+Gem 2,Stop Looking,27:55.5
+Watermelon 2,Start Looking,27:55.6
+Watermelon 2,Stop Looking,27:55.6
+Shell 2,Start Looking,27:55.8
+Shell 2,Stop Looking,27:56.1
+Watermelon 2,Start Looking,27:56.1
+Watermelon 2,Stop Looking,27:56.1
+Panda (Target) 2,Start Looking,27:56.4
+Panda (Target) 2,Stop Looking,27:56.5
+Panda (Target) 2,Start Looking,27:57.2
+END TRIAL,,27:57.7
+START TRIAL 4,,27:59.6
+Coral 4,Start Looking,28:00.2
+Coral 4,Stop Looking,28:00.3
+Bunny 4,Start Looking,28:00.4
+Bunny 4,Stop Looking,28:00.5
+Star 4,Start Looking,28:00.6
+Star 4,Stop Looking,28:00.7
+Tower 4,Start Looking,28:00.7
+Tower 4,Stop Looking,28:00.8
+Gem 4,Start Looking,28:00.9
+Gem 4,Stop Looking,28:00.9
+Car (Target) 4,Start Looking,28:01.0
+Car (Target) 4,Stop Looking,28:01.3
+END TRIAL,,28:01.4

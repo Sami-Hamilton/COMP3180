@@ -38,15 +38,15 @@ public class AnalyticsManager : MonoBehaviour
         datalog = gameObject.GetComponent<DataWriter>();
     }
 
-    public void StartRecording()
+    public void StartRecording(string Trial)
     {
         started = true;
         if (datalog != null)
         {
             datalog.WriteDataLine(
-                "START TRIAL",
+                "START TRIAL " + Trial,
                 "",
-                ""
+                string.Format("{0:HH:mm:ss.FFFFFFF}", System.DateTime.Now)
             );
         }
     }
@@ -59,7 +59,7 @@ public class AnalyticsManager : MonoBehaviour
             datalog.WriteDataLine(
                 "END TRIAL",
                 "",
-                ""
+                string.Format("{0:mm:ss.FFFFFFF}", System.DateTime.Now)
             );
         }
     }
@@ -73,7 +73,7 @@ public class AnalyticsManager : MonoBehaviour
             datalog.WriteDataLine(
                 frameName,
                 "Start Looking",
-                string.Format("{0:HH:mm:ss.FFFFFFF}", System.DateTime.Now)
+                string.Format("{0:mm:ss.FFFFFFF}", System.DateTime.Now)
             );
         }
     }
@@ -85,7 +85,7 @@ public class AnalyticsManager : MonoBehaviour
             datalog.WriteDataLine(
                 frameName,
                 "Stop Looking",
-                string.Format("{0:HH:mm:ss.FFFFFFF}", System.DateTime.Now)
+                string.Format("{0:mm:ss.FFFFFFF}", System.DateTime.Now)
             );
         }
     }

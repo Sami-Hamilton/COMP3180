@@ -1,20 +1,21 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(AnalyticsManager))]
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject Panel1;
-    [SerializeField] private GameObject Panel2;
-    [SerializeField] private GameObject Panel3;
-    [SerializeField] private GameObject Panel4;
-    [SerializeField] private GameObject Panel5;
-    [SerializeField] private GameObject Panel6;
-    [SerializeField] private GameObject Panel7;
-    [SerializeField] private GameObject Panel8;
-    [SerializeField] private GameObject Furniture;
-    [SerializeField] private GameObject BlackPanel;
-    [SerializeField] private int TestVersion = 0;
+    [SerializeField] private GameObject[] panels = new GameObject[8];
+    [SerializeField] private GameObject[] frames = new GameObject[8];
+    [SerializeField] private GameObject endPanel;
+    [SerializeField] private GameObject furniture;
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private GameObject playerLocomotion;
+    [Range(0, 1)]
+    [SerializeField] private int testVersion = 0;
     private int trial = 0;
+    private int[,] trialVersions = new int[,] { { 1, 3, 6, 5, 7, 4, 0, 2 }, { 0, 2, 7, 4, 6, 5, 1, 3 } };
+    private Vector3 playerPosition;
+    private Quaternion playerRotation;
+    private AnalyticsManager analytics;
 
     static private GameManager instance;
     static public GameManager Instance
@@ -32,66 +33,40 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (TestVersion == 0) {
-            Panel2.SetActive(true);
-        } else {
-            Panel1.SetActive(true);
-        }
+        analytics = gameObject.GetComponent<AnalyticsManager>();
+        panels[trialVersions[testVersion, trial]].SetActive(true);
+        playerPosition = playerTransform.position;
+        playerRotation = playerTransform.rotation;
+        playerLocomotion.SetActive(false);
+        furniture.SetActive(false);
     }
 
-    public void endTrial() {
-        trial++;
-        Furniture.SetActive(false);
-        BlackPanel.SetActive(true);
+    public void startTrial()
+    {
+        analytics.StartRecording((trialVersions[testVersion, trial] + 1) + "");
+        furniture.SetActive(true);
+        playerLocomotion.SetActive(true);
+        panels[trialVersions[testVersion, trial]].SetActive(false);
+        frames[trialVersions[testVersion, trial]].SetActive(true);
+    }
 
-        if (trial == 1) {
-            if (TestVersion == 0) {
-                Panel4.SetActive(true);
-            } else {
-                Panel3.SetActive(true);
-            }
+    public void endTrial()
+    {
+        analytics.StopRecording();
+        furniture.SetActive(false);
+        playerTransform.SetPositionAndRotation(playerPosition, playerRotation);
+        playerLocomotion.SetActive(false);
+        frames[trialVersions[testVersion, trial]].SetActive(false);
+
+        trial++;
+
+        if (trial >= 8)
+        {
+            endPanel.SetActive(true);
         }
-        if (trial == 2) {
-            if (TestVersion == 0) {
-                Panel7.SetActive(true);
-            } else {
-                Panel8.SetActive(true);
-            }
-        }
-        if (trial == 3) {
-            if (TestVersion == 0) {
-                Panel6.SetActive(true);
-            } else {
-                Panel5.SetActive(true);
-            }
-        }
-        if (trial == 4) {
-            if (TestVersion == 0) {
-                Panel8.SetActive(true);
-            } else {
-                Panel7.SetActive(true);
-            }
-        }
-        if (trial == 5) {
-            if (TestVersion == 0) {
-                Panel5.SetActive(true);
-            } else {
-                Panel6.SetActive(true);
-            }
-        }
-        if (trial == 6) {
-            if (TestVersion == 0) {
-                Panel1.SetActive(true);
-            } else {
-                Panel2.SetActive(true);
-            }
-        }
-        if (trial == 7) {
-            if (TestVersion == 0) {
-                Panel3.SetActive(true);
-            } else {
-                Panel4.SetActive(true);
-            }
+        else
+        {
+            panels[trialVersions[testVersion, trial]].SetActive(true);
         }
     }
 }
