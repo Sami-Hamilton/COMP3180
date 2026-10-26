@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1863750387117999038, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: participantNumber
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1888061094042618833, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: m_IsActive
@@ -209,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2485306220776625340, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: testVersion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2497770778974932837, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: m_IsActive
