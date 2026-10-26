@@ -1,0 +1,72 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 1,,12:43:59.355365
+Target (Cheese),Start Looking,44:01.863281
+END TRIAL,,44:05.939664
+START TRIAL 3,,12:44:09.869148
+Hexagon,Start Looking,44:10.61541
+Hexagon,Stop Looking,44:10.73764
+Hexagon,Start Looking,44:10.826793
+Hexagon,Stop Looking,44:10.881956
+GEm,Start Looking,44:11.10502
+Gem,Stop Looking,44:11.175455
+Burger,Start Looking,44:11.305526
+Burger,Stop Looking,44:11.372303
+Target (Watering Can),Start Looking,44:11.572656
+Target (Watering Can),Stop Looking,44:11.605954
+Target (Watering Can),Start Looking,44:12.307645
+Target (Watering Can),Stop Looking,44:12.854494
+Target (Watering Can),Start Looking,44:13.020942
+END TRIAL,,44:14.224129
+START TRIAL 8,,12:44:16.852164
+Target (Sunflower),Start Looking,44:17.264224
+Target (Sunflower),Stop Looking,44:17.364815
+END TRIAL,,44:18.402391
+START TRIAL 5,,12:44:20.293438
+Orange,Start Looking,44:20.895177
+Orange,Stop Looking,44:20.96194
+Target (Ball),Start Looking,44:21.061983
+Target (Ball),Stop Looking,44:21.184705
+Target (Ball),Start Looking,44:21.396022
+END TRIAL,,44:21.875564
+START TRIAL 7,,12:44:24.125661
+Coral,Start Looking,44:24.908609
+Coral,Stop Looking,44:24.926946
+Milk,Start Looking,44:25.027455
+Milk,Stop Looking,44:25.23847
+Coral,Start Looking,44:25.260698
+Coral,Stop Looking,44:25.272178
+Target (Bottle),Start Looking,44:25.506212
+Target (Bottle),Stop Looking,44:25.595909
+Bear,Start Looking,44:25.751248
+Bear,Stop Looking,44:25.773414
+Bear,Start Looking,44:25.929736
+Bear,Stop Looking,44:25.996585
+Target (Bottle),Start Looking,44:26.06486
+END TRIAL,,44:26.831375
+START TRIAL 6,,12:44:30.84192
+Plant,Start Looking,44:31.386905
+Plant,Stop Looking,44:31.456626
+Ball,Start Looking,44:32.134877
+Ball,Stop Looking,44:32.210922
+Bunny,Start Looking,44:32.356169
+Bunny,Stop Looking,44:32.38966
+Target (Pumpkin),Start Looking,44:32.445272
+END TRIAL,,44:33.125039
+START TRIAL 2,,12:44:35.709367
+Watering Can,Start Looking,44:36.166188
+Watering Can,Stop Looking,44:36.25423
+Target (Panda),Start Looking,44:36.599595
+Target (Panda),Stop Looking,44:36.624062
+Target (Panda),Start Looking,44:37.312394
+END TRIAL,,44:37.368564
+START TRIAL 4,,12:44:40.498518
+Coral,Start Looking,44:41.165968
+Coral,Stop Looking,44:41.333988
+Bunny,Start Looking,44:41.712294
+Bunny,Stop Looking,44:41.745619
+Tower,Start Looking,44:42.424684
+Tower,Stop Looking,44:42.524658
+Gem,Start Looking,44:42.603505
+Gem,Stop Looking,44:42.725528
+Target (Car),Start Looking,44:42.992871
+END TRIAL,,44:43.698333

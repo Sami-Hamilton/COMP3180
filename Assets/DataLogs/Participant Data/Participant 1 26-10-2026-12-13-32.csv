@@ -1,0 +1,48 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 2,,12:24:09.488259
+Watering Can,Start Looking,24:10.099725
+Watering Can,Stop Looking,24:10.355316
+END TRIAL,,24:12.026947
+START TRIAL 4,,12:24:16.772192
+Star,Start Looking,24:17.75096
+Star,Stop Looking,24:17.784514
+Tower,Start Looking,24:17.829158
+Tower,Stop Looking,24:17.851897
+Gem,Start Looking,24:17.885246
+Gem,Stop Looking,24:18.029974
+Target (Car),Start Looking,24:18.063271
+Target (Car),Stop Looking,24:18.274237
+Target (Car),Start Looking,24:18.62004
+END TRIAL,,24:19.043157
+START TRIAL 7,,12:24:23.976813
+Target (Bottle),Start Looking,24:26.026366
+END TRIAL,,24:26.204824
+START TRIAL 6,,12:24:29.434327
+Ball,Start Looking,24:30.013663
+Ball,Stop Looking,24:30.102927
+Bunny,Start Looking,24:30.259087
+Bunny,Stop Looking,24:30.270253
+Target (Pumpkin),Start Looking,24:30.804713
+END TRIAL,,24:31.251378
+START TRIAL 8,,12:24:33.32287
+Target (Sunflower),Start Looking,24:33.901169
+Target (Sunflower),Stop Looking,24:34.402349
+Target (Sunflower),Start Looking,24:35.851389
+END TRIAL,,24:36.389029
+START TRIAL 5,,12:24:39.035121
+Target (Ball),Start Looking,24:40.85042
+END TRIAL,,24:41.552678
+START TRIAL 1,,12:24:44.025485
+Coral,Start Looking,24:44.715591
+Coral,Stop Looking,24:44.738463
+Target (Cheese),Start Looking,24:45.316892
+Target (Cheese),Stop Looking,24:45.672862
+Target (Cheese),Start Looking,24:45.907068
+END TRIAL,,24:46.240858
+START TRIAL 3,,12:24:48.203618
+Burger,Start Looking,24:48.959664
+Burger,Stop Looking,24:49.115154
+Target (Watering Can),Start Looking,24:49.271271
+Target (Watering Can),Stop Looking,24:49.360718
+Target (Watering Can),Start Looking,24:49.660666
+END TRIAL,,24:50.062761
