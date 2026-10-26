@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1863750387117999038, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: participantNumber
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1888061094042618833, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: m_IsActive

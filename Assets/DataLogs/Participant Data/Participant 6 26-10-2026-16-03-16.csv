@@ -1,0 +1,93 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 1,,16:11:56.475556
+Circle,Start Looking,12:01.262779
+Circle,Stop Looking,12:01.294933
+Coral,Start Looking,12:07.175654
+Coral,Stop Looking,12:07.26425
+Sushi,Start Looking,12:07.611163
+Sushi,Stop Looking,12:07.955001
+Sushi,Start Looking,12:08.370425
+Sushi,Stop Looking,12:08.94781
+Target (Cheese),Start Looking,12:09.549104
+Target (Cheese),Stop Looking,12:09.949337
+Target (Cheese),Start Looking,12:11.1074
+END TRIAL,,12:11.66576
+START TRIAL 3,,16:12:19.738216
+Ball,Start Looking,12:20.962993
+Ball,Stop Looking,12:20.996998
+Burger,Start Looking,12:21.955577
+Burger,Stop Looking,12:22.067146
+GEm,Start Looking,12:29.539743
+Gem,Stop Looking,12:29.550751
+Hexagon,Start Looking,12:29.662826
+Hexagon,Stop Looking,12:29.685371
+Bottle,Start Looking,12:30.421029
+Bottle,Stop Looking,12:30.619394
+Target (Watering Can),Start Looking,12:32.147843
+END TRIAL,,12:32.213364
+START TRIAL 8,,16:12:44.454318
+Train,Start Looking,12:45.244794
+Train,Stop Looking,12:45.391019
+Target (Sunflower),Start Looking,12:45.489243
+Target (Sunflower),Stop Looking,12:45.768871
+Target (Sunflower),Start Looking,12:46.167975
+Target (Sunflower),Stop Looking,12:46.414239
+Train,Start Looking,12:46.892849
+Train,Stop Looking,12:46.914349
+Chips,Start Looking,12:46.914843
+Chips,Stop Looking,12:46.971444
+Trapezium,Start Looking,12:46.971708
+Trapezium,Stop Looking,12:47.271066
+Chips,Start Looking,12:47.315873
+Chips,Stop Looking,12:47.359267
+Train,Start Looking,12:47.393384
+Train,Stop Looking,12:47.405393
+Target (Sunflower),Start Looking,12:58.541882
+END TRIAL,,12:59.233803
+START TRIAL 5,,16:13:05.882511
+Target (Ball),Start Looking,13:06.784578
+Target (Ball),Stop Looking,13:07.052881
+Target (Ball),Start Looking,13:13.157183
+END TRIAL,,13:13.257018
+START TRIAL 7,,16:13:18.556592
+Target (Bottle),Start Looking,13:19.70576
+Target (Bottle),Stop Looking,13:19.983861
+Bear,Start Looking,13:20.084631
+Bear,Stop Looking,13:20.105606
+Mushroom,Start Looking,13:20.239521
+Mushroom,Stop Looking,13:20.429988
+Bear,Start Looking,13:20.451192
+Bear,Stop Looking,13:20.462595
+Carrot,Start Looking,13:20.518668
+Carrot,Stop Looking,13:20.529351
+Milk,Start Looking,13:20.732921
+Milk,Stop Looking,13:20.908399
+Coral,Start Looking,13:21.04048
+Coral,Stop Looking,13:21.075471
+Target (Bottle),Start Looking,13:22.220745
+END TRIAL,,13:23.012647
+START TRIAL 6,,16:13:29.617486
+Bunny,Start Looking,13:30.330373
+Bunny,Stop Looking,13:30.422947
+Target (Pumpkin),Start Looking,13:30.519828
+END TRIAL,,13:30.954751
+START TRIAL 2,,16:13:35.60993
+Watering Can,Start Looking,13:36.121771
+Watering Can,Stop Looking,13:36.211995
+Target (Panda),Start Looking,13:36.27802
+Target (Panda),Stop Looking,13:36.333777
+Target (Panda),Start Looking,13:36.600376
+END TRIAL,,13:36.868074
+START TRIAL 4,,16:13:39.184264
+Coral,Start Looking,13:39.541014
+Coral,Stop Looking,13:39.587812
+Coral,Start Looking,13:39.686045
+Coral,Stop Looking,13:39.719791
+Star,Start Looking,13:39.931235
+Star,Stop Looking,13:39.965409
+Tower,Start Looking,13:40.065501
+Tower,Stop Looking,13:40.165444
+Gem,Start Looking,13:40.298877
+Gem,Stop Looking,13:40.321504
+Target (Car),Start Looking,13:40.536371
+END TRIAL,,13:41.01402
