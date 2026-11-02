@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 234209426868040355, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
+      propertyPath: m_BlendVisualLinePoints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 378423294307462707, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -185,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1863750387117999038, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: participantNumber
-      value: 8
+      value: Vid2
       objectReference: {fileID: 0}
     - target: {fileID: 1888061094042618833, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
       propertyPath: m_IsActive
@@ -466,8 +470,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8417198663880702167, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5520522930245572491}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
+--- !u!1 &5520522930245572490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8417198663880702167, guid: 5e9590bc7dd2f7a4883f7e6cf05d0493, type: 3}
+  m_PrefabInstance: {fileID: 5520522930245572489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5520522930245572491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520522930245572490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6df71824f341bc4897680bb8beb4090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.XRInteractorReticleVisual
+  m_MaxRaycastDistance: 20
+  m_ReticlePrefab: {fileID: 5494529262831024541, guid: 0d4f6868e24e7264ca495f2aa5a3bf7e, type: 3}
+  m_PrefabScalingFactor: 0.05
+  m_UndoDistanceScaling: 1
+  m_AlignPrefabWithSurfaceNormal: 1
+  m_EndpointSmoothingTime: 0
+  m_DrawWhileSelecting: 1
+  m_DrawOnNoHit: 1
+  m_RaycastMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

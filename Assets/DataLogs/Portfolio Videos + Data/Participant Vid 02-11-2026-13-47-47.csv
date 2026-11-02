@@ -1,0 +1,58 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 2,,13:51:19.34679
+Watering Can,Start Looking,51:19.871042
+Watering Can,Stop Looking,51:20.046869
+Target (Panda),Start Looking,51:20.147951
+Target (Panda),Stop Looking,51:20.259157
+Target (Panda),Start Looking,51:21.039043
+Target (Panda),Stop Looking,51:21.060857
+Target (Panda),Start Looking,51:21.662671
+Target (Panda),Stop Looking,51:21.852173
+Target (Panda),Start Looking,51:22.164148
+END TRIAL,,51:22.643116
+START TRIAL 4,,13:51:27.544056
+Coral,Start Looking,51:28.134143
+Coral,Stop Looking,51:28.223791
+Bunny,Start Looking,51:28.301106
+Bunny,Stop Looking,51:28.623707
+Star,Start Looking,51:28.713074
+Star,Stop Looking,51:28.735802
+Target (Car),Start Looking,51:28.980082
+END TRIAL,,51:29.3363
+START TRIAL 7,,13:51:36.743098
+Carrot,Start Looking,51:37.28989
+Carrot,Stop Looking,51:37.400963
+Coral,Start Looking,51:37.578617
+Coral,Stop Looking,51:37.612582
+Lego,Start Looking,51:37.679317
+Lego,Stop Looking,51:37.723678
+Target (Bottle),Start Looking,51:37.946774
+END TRIAL,,51:38.324967
+START TRIAL 6,,13:51:42.1791
+Garlic,Start Looking,51:42.758126
+Garlic,Stop Looking,51:42.926032
+Target (Pumpkin),Start Looking,51:43.091774
+END TRIAL,,51:43.560154
+START TRIAL 8,,13:51:46.767629
+Target (Sunflower),Start Looking,51:47.202063
+Target (Sunflower),Stop Looking,51:47.369119
+Target (Sunflower),Start Looking,51:47.837499
+END TRIAL,,51:48.049103
+START TRIAL 5,,13:51:51.278023
+Toothbrush,Start Looking,51:51.589918
+Toothbrush,Stop Looking,51:51.623081
+Orange,Start Looking,51:51.734929
+Orange,Stop Looking,51:51.779234
+Target (Ball),Start Looking,51:51.935053
+END TRIAL,,51:52.280731
+START TRIAL 1,,13:51:54.764864
+Target (Cheese),Start Looking,51:55.309796
+END TRIAL,,51:55.633274
+START TRIAL 3,,13:51:57.437639
+GEm,Start Looking,51:58.028087
+Gem,Stop Looking,51:58.061463
+Apple,Start Looking,51:58.12837
+Apple,Stop Looking,51:58.19491
+Apple,Start Looking,51:58.373478
+Apple,Stop Looking,51:58.395482
+END TRIAL,,51:59.477264

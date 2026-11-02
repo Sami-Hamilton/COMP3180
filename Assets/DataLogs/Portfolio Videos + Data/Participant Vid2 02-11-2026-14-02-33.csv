@@ -1,0 +1,41 @@
+Frame Name,Start/Stop Looking,Time
+START TRIAL 1,,14:03:43.551809
+Target (Cheese),Start Looking,03:44.287849
+END TRIAL,,03:44.621442
+START TRIAL 3,,14:03:47.226763
+Target (Watering Can),Start Looking,03:47.626362
+Target (Watering Can),Stop Looking,03:47.726843
+Target (Watering Can),Start Looking,03:48.750896
+END TRIAL,,03:48.78471
+START TRIAL 8,,14:03:51.63906
+Target (Sunflower),Start Looking,03:52.260351
+END TRIAL,,03:52.806326
+START TRIAL 5,,14:03:55.366902
+Target (Ball),Start Looking,03:56.068996
+END TRIAL,,03:56.348454
+START TRIAL 7,,14:03:58.742488
+Target (Bottle),Start Looking,03:59.076579
+END TRIAL,,03:59.447213
+START TRIAL 6,,14:04:02.439993
+Plant,Start Looking,04:03.05333
+Plant,Stop Looking,04:03.152835
+Garlic,Start Looking,04:03.331208
+Garlic,Stop Looking,04:03.39835
+Target (Pumpkin),Start Looking,04:03.709101
+END TRIAL,,04:04.076991
+START TRIAL 2,,14:04:05.614866
+Oval,Start Looking,04:06.126227
+Oval,Stop Looking,04:06.181518
+Target (Panda),Start Looking,04:06.520946
+END TRIAL,,04:06.798493
+START TRIAL 4,,14:04:10.0917
+Star,Start Looking,04:10.659708
+Star,Stop Looking,04:10.695696
+Plant,Start Looking,04:10.793629
+Plant,Stop Looking,04:10.84858
+Star,Start Looking,04:11.094193
+Star,Stop Looking,04:11.117857
+Gem,Start Looking,04:11.183386
+Gem,Stop Looking,04:11.284285
+Target (Car),Start Looking,04:11.361442
+END TRIAL,,04:11.651066
